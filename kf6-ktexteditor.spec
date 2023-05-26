@@ -1,6 +1,6 @@
 %define libname %mklibname KF6TextEditor
 %define devname %mklibname KF6TextEditor -d
-%define git 20230513
+%define git 20230526
 
 Name: kf6-ktexteditor
 Version: 5.240.0
@@ -80,7 +80,7 @@ Full text editor component
 %{_libdir}/cmake/KF6TextEditor
 %{_qtdir}/mkspecs/modules/qt_KTextEditor.pri
 %{_qtdir}/doc/KF6TextEditor.*
-%{_datadir}/kdevappwizard/templates/ktexteditor-plugin.tar.bz2
+%{_datadir}/kdevappwizard/templates/ktexteditor6-plugin.tar.bz2
 
 %files -n %{libname}
 %{_libdir}/libKF6TextEditor.so*
