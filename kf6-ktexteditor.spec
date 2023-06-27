@@ -1,6 +1,6 @@
 %define libname %mklibname KF6TextEditor
 %define devname %mklibname KF6TextEditor -d
-%define git 20230622
+%define git 20230627
 
 Name: kf6-ktexteditor
 Version: 5.240.0
