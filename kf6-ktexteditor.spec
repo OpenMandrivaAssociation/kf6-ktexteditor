@@ -29,6 +29,8 @@ BuildRequires: cmake(Qt6QuickTest)
 BuildRequires: cmake(KF6Parts)
 BuildRequires: cmake(KF6SyntaxHighlighting)
 BuildRequires: cmake(KF6Auth)
+# Just to prevent pulling in the KF5 version
+BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: %{libname} = %{EVRD}
 
 %description
