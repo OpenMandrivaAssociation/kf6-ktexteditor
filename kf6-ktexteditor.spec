@@ -30,6 +30,7 @@ BuildRequires: cmake(KF6Parts)
 BuildRequires: cmake(KF6SyntaxHighlighting)
 BuildRequires: cmake(KF6Auth)
 BuildRequires: cmake(KF6Sonnet)
+BuildRequires: cmake(KF6TextWidgets)
 # Just to prevent pulling in the KF5 version
 BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: %{libname} = %{EVRD}
