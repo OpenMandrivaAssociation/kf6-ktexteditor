@@ -1,6 +1,6 @@
 %define libname %mklibname KF6TextEditor
 %define devname %mklibname KF6TextEditor -d
-%define git 20230901
+%define git 20230909
 
 Name: kf6-ktexteditor
 Version: 5.240.0
@@ -88,5 +88,5 @@ Full text editor component
 
 %files -n %{libname}
 %{_libdir}/libKF6TextEditor.so*
-%{_libdir}/libexec/kauth/kauth_ktexteditor_helper
+%{_libdir}/libexec/kf6/kauth/kauth_ktexteditor_helper
 %{_qtdir}/plugins/kf6/parts/katepart.so
