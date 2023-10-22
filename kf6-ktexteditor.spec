@@ -1,6 +1,6 @@
 %define libname %mklibname KF6TextEditor
 %define devname %mklibname KF6TextEditor -d
-%define git 20231014
+%define git 20231022
 
 Name: kf6-ktexteditor
 Version: 5.240.0
@@ -77,7 +77,6 @@ Full text editor component
 %{_datadir}/qlogging-categories6/ktexteditor.*
 %{_datadir}/dbus-1/system-services/org.kde.ktexteditor.katetextbuffer.service
 %{_datadir}/dbus-1/system.d/org.kde.ktexteditor.katetextbuffer.conf
-%{_datadir}/katepart5
 %{_datadir}/polkit-1/actions/org.kde.ktexteditor.katetextbuffer.policy
 
 %files -n %{devname}
