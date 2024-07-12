@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-ktexteditor
-Version: 6.3.0
+Version: 6.4.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/ktexteditor/-/archive/master/ktexteditor-master.tar.bz2#/ktexteditor-%{git}.tar.bz2
@@ -80,6 +80,7 @@ Full text editor component
 %find_lang %{name} --all-name --with-qt --with-html
 
 %files -f %{name}.lang
+%{_bindir}/ktexteditor-script-tester6
 %{_datadir}/qlogging-categories6/ktexteditor.*
 %{_datadir}/dbus-1/system-services/org.kde.ktexteditor6.katetextbuffer.service
 %{_datadir}/dbus-1/system.d/org.kde.ktexteditor6.katetextbuffer.conf
